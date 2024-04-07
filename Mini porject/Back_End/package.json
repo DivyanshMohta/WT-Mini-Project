@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bard-api-node": "^2.0.0",
+    "chart.js": "^4.4.2",
+    "express": "^4.18.3",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.3",
+    "xlsx": "^0.18.5"
+  },
+  "type": "module"
+}

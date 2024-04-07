@@ -1,0 +1,99 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Lighter background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.Sub-name,
+.Tea-Name,
+.Subject-code,
+.Academic,
+.Year,
+.File-Input,
+.ExamType {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px; /* Add some space between inputs */
+}
+
+.Sub-name label,
+.Tea-Name label,
+.Subject-code label,
+.Academic label,
+.Year label,
+.ExamType label {
+  margin-right: 10px;
+  font-weight: bold;
+  min-width: 100px; /* Adjust the width as needed */
+  color: #495057; /* Darker text color */
+}
+
+.Sub-name select,
+.Tea-Name input,
+.Subject-code input,
+.Academic select,
+.Year select,
+.ExamType select,
+.File-Input input[type="file"] {
+  flex: 1;
+  padding: 10px; /* Increase padding for better spacing */
+  border-radius: 6px; /* Slightly rounder corners */
+  border: 1px solid #ced4da;
+  background-color: #ffffff; /* White background */
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width as needed */
+}
+
+.Sub-name select:focus,
+.Tea-Name input:focus,
+.Subject-code input:focus,
+.Academic select:focus,
+.Year select:focus,
+.ExamType select:focus,
+.File-Input input[type="file"]:focus {
+  outline: none;
+  border-color: #4d90fe;
+}
+
+.Submit-Button {
+  width: 100%;
+  max-width: 200px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 14px; /* Increase padding for better button size */
+  border-radius: 6px; /* Slightly rounder corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Submit-Button:hover {
+  background-color: #0056b3;
+}
+
+.File-Input {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  width: 100%;
+  margin-bottom: 15px; /* Add some space between inputs */
+}
+
+.File-Input input[type="file"] {
+  padding: 10px; /* Increase padding for better spacing */
+  border-radius: 6px; /* Slightly rounder corners */
+  border: 1px solid #ced4da;
+  background-color: #ffffff; /* White background */
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width as needed */
+}
+
+.File-Input input[type="file"]:focus {
+  outline: none;
+  border-color: #4d90fe;
+}

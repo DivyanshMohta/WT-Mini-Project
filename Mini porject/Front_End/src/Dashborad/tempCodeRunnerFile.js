@@ -1,0 +1,1 @@
+import { BardAPI } from 'bard-api-node';

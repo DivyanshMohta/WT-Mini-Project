@@ -1,0 +1,21 @@
+.row{
+    height: 100%;
+    width: 100%;
+    
+}
+.container{
+
+    height: 100%;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+.bg{
+    background-color: none;
+    width: 100%;
+}
+.bg1{
+    background-color: aqua;
+}
